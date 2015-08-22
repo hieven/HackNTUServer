@@ -1,0 +1,35 @@
+{
+  "name": "couple-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "babel": "5.4.7",
+    "babel-plugin-typecheck": "0.0.3",
+    "body-parser": "~1.12.0",
+    "connect-redis": "^2.4.1",
+    "cookie-parser": "~1.3.4",
+    "debug": "~2.1.1",
+    "express": "~4.12.2",
+    "express-session": "^1.11.3",
+    "jade": "~1.9.2",
+    "mongoose": "^4.1.0",
+    "morgan": "~1.5.1",
+    "serve-favicon": "~2.2.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-concat": "^2.3.3",
+    "gulp-exit": "0.0.2",
+    "gulp-filesize": "0.0.6",
+    "gulp-istanbul": "^0.8.1",
+    "gulp-livereload": "~1.1.1",
+    "gulp-mocha": "^2.0.1",
+    "gulp-sourcemaps": "^0.4.5",
+    "gulp-uglify": "^0.3.1",
+    "gulp-watch": "^4.2.4",
+    "nodemon": "*"
+  }
+}
