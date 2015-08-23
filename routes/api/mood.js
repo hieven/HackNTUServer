@@ -47,7 +47,8 @@ export function addMood(req, res) {
   let data = req.body.mood;
   data['user_id'] = user_id;
   const mood = new Mood(data);
-
+  
+  console.log(mood);
   mood.save(function(err, mood) {
     if (err) {
       console.log(err);
