@@ -48,8 +48,9 @@ export function loadAuth(req, res) {
   if (!user_id) {
     return res.json(null);
   }
-  User.find({id: user_id}, function(err, user) {
-    console.log('find a user');
+
+  User.findOne({_id: user_id}, function(err, user) {
+    console.log(user);
     res.json({
       username: user.username,
       user_id: user.id
